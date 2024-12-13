@@ -37,7 +37,7 @@ body {
     font-weight: bold;
 }
 
-.menu-button{
+.menu-button {
     display: none;
 }
 
@@ -58,9 +58,41 @@ body {
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
 
+    .doctors {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+        max-width: 100%;
+    } 
+
 }
 
 /* Cellphones */
 @media (max-width: 767px) {
+
+    .logo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-button {
+        display: flex;
+        margin-left: auto;
+    }
+
+    .pages {
+        display: none;
+    }
+
+    .doctors {
+        display: grid;
+        margin: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+        max-width: 100%;
+    } 
 
 }
