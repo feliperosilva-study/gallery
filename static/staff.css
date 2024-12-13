@@ -41,6 +41,18 @@ body {
     display: none;
 }
 
+.doctors {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.doctors img {
+    width: 100%;
+}
 
 
 /* Tablets */
