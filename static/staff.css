@@ -80,6 +80,10 @@ body {
     width: 100%;
 }
 
+.doctor-link:hover {
+    transform: scale(1.1); /* Zoom in slightly */
+    transition: transform 0.3s ease; /* Smooth transition */
+}
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 1024px) {
